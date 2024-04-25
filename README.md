@@ -1,6 +1,6 @@
-![Thereminou](https://github.com/LivestockPixel/Thereminou/blob/main/Thereminou.jpg)
-
 # How to build your own Thereminou :cat: :robot:
+
+![Thereminou](https://github.com/LivestockPixel/Thereminou/blob/main/Thereminou.jpg)
 
 Thereminou is inspirated by the famous electronic instrument : **The Theremnin**. You'll find here all the sources to build your own **audio-reactive cyber-cat**.
 Thereminou is a really lightweight device that can send MIDI message throw a Wifi network (with RTPmidi).
