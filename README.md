@@ -1,3 +1,5 @@
+![Thereminou](https://github.com/LivestockPixel/Thereminou/blob/main/Thereminou.jpg)
+
 # How to build your own Thereminou
 
 Thereminou is inspirated by the famous electronic instrument : **The Theremnin**. You'll find here all the sources to build your own **audio-reactive cyber-cat**.
@@ -17,11 +19,13 @@ This controler is based on 2 ultrasonic sensors that read the distance between y
 - [RTPmidi](https://www.tobias-erichsen.de/software/rtpmidi.html)
 
 ##Circuit Diagram:
-![alt text](Thereminou_circuit diagram.jpg)
+
+![Circuit Thereminou](https://github.com/LivestockPixel/Thereminou/blob/main/Thereminou_circuit.png)
 
 ##Setup
 Open the Arduino IDE code editor. Open the *ESP8266_theremin118.ino* file.
 Install all the dependencies. Load the program on your board.
+If your board is corectly set-up and connected to your network, you'll see in the monitor the IP adress. Use it to configure RTPmidi in order to receive MIDI message on your computer.
 
 ##To go further
 Thereminou could also send Midi message directly via USB (if your board support it natively, like Arduino Leonardo or Teensy ).
