@@ -2,9 +2,9 @@
 
 ![Thereminou](https://github.com/LivestockPixel/Thereminou/blob/main/Thereminou.jpg)
 
-Thereminou is inspirated by the famous electronic instrument : **The Theremnin**. You'll find here all the sources to build your own **audio-reactive cyber-cat**.
-Thereminou is a really lightweight device that can send MIDI message throw a Wifi network (with RTPmidi).
-This controler is based on 2 ultrasonic sensors that read the distance between your hand and the box, then send MIDI control message based on this distance value.
+Thereminou is inspirated by the famous electronic instrument : **The Theremin**. You'll find here all the sources to build your own **audio-reactive cyber-cat**.
+Thereminou is a really lightweight device that can send MIDI messages throws a Wifi network (with RTPmidi).
+This controller is based on 2 ultrasonic sensors that read the distance between your hand and the box, then send MIDI control message based on this distance value.
 
 ## Required Components:
 - ESP8266 Board
@@ -31,7 +31,7 @@ char ssid[] = "your_wifi_network"; //  your network SSID (name)
 char pass[] = "network_password";    // your network password (use for WPA, or use as key for WEP)
 ```
 
-Assign the sensors to the right pin :
+Assign the sensors to the right pins :
 ```
 const int echoPin = 5;
 const int trigPin = 16;
@@ -41,10 +41,10 @@ const int triggerMaxDistance = 50; // Adjust the limit distance (up to 50cm)
 ```
 
 Load the program on your board.
-If your board is corectly set-up and connected to your network, you'll see in the monitor the IP adress. Use it to configure RTPmidi in order to receive MIDI message on your computer.
+If your board is correctly set-up and connected to your network, you'll see on the monitor the IP address. Use it to configure RTPmidi in order to receive MIDI messages on your computer.
 
 ## To go further
-Thereminou could also send Midi message directly via USB (if your board support it natively, like Arduino Leonardo or Teensy ).
+Thereminou could also send Midi message directly via USB (if your board supports it natively, like Arduino Leonardo or Teensy ).
 Check your board here : [MIDI over USB board](https://tttapa.github.io/Control-Surface-doc/Doxygen/d8/d4a/md_pages_MIDI-over-USB.html).
 Otherwise you can use Hairless to get your MIDI message via serial : [Hairless MIDI Bridge](https://projectgus.github.io/hairless-midiserial/)
 
