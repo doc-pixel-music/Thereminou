@@ -1,9 +1,9 @@
-# How to build your own Thereminou :cat: :robot:
+# How to build your own Theremeow :cat: :robot:
 
-![Thereminou](https://github.com/LivestockPixel/Thereminou/blob/main/Thereminou.jpg)
+![Theremeow](https://github.com/LivestockPixel/Thereminou/blob/main/Thereminou.jpg)
 
-Thereminou is inspirated by the famous electronic instrument : **The Theremin**. You'll find here all the sources to build your own **audio-reactive cyber-cat**.
-Thereminou is a really lightweight device that can send MIDI messages throws a Wifi network (with RTPmidi).
+Theremeow is inspirated by the famous electronic instrument : **The Theremin**. You'll find here all the sources to build your own **reactive cyber-cat MIDI controler**.
+Theremeow is a really lightweight device that can send MIDI messages throws a Wifi network (with RTPmidi).
 This controller is based on 2 ultrasonic sensors that read the distance between your hand and the box, then send MIDI control message based on this distance value.
 
 ## Required Components:
@@ -44,10 +44,10 @@ Load the program on your board.
 If your board is correctly set-up and connected to your network, you'll see on the monitor the IP address. Use it to configure RTPmidi in order to receive MIDI messages on your computer.
 
 ## To go further
-Thereminou could also send Midi message directly via USB (if your board supports it natively, like Arduino Leonardo or Teensy ).
+Theremeow could also send Midi message directly via USB (if your board supports it natively, like Arduino Leonardo or Teensy ).
 Check your board here : [MIDI over USB board](https://tttapa.github.io/Control-Surface-doc/Doxygen/d8/d4a/md_pages_MIDI-over-USB.html).
 Otherwise you can use Hairless to get your MIDI message via serial : [Hairless MIDI Bridge](https://projectgus.github.io/hairless-midiserial/)
 
 Many thanks to Gurbrinder Grewal, Derek Pritchett and Bryne Carruthers for their work : [Arduino Theremin](https://www.arduinotheremin.com/)
 
-More about the **Livestock Pixel** project : [Livestock Pixel](https://livestockpixel.com)
+More about the **Doc Pixel** project : [Doc Pixel](https://doc-pixel.com)
